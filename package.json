@@ -1,0 +1,20 @@
+{
+  "name": "240828_test",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^32.0.1",
+    "sqlite3": "^5.1.7"
+  },
+  "dependencies": {
+    "uuid": "^10.0.0"
+  }
+}

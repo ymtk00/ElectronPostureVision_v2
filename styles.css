@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #photo-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #photo-form input {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  
+  #photo-form button {
+    padding: 5px 10px;
+  }
+  
+  #photo-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .photo-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .photo-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .photo-item button {
+    margin-top: 5px;
+  }

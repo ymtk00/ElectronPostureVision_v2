@@ -11,6 +11,42 @@ jspm_packages/
 # OSやエディタの設定ファイル
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # SQLite3 データベース
-*.sqlite3 
+*.sqlite3
+
+# アップロードされた画像
+uploads/
+
+# ログファイル
+*.log
+
+# 環境変数ファイル
+.env
+
+# Electronのパッケージング関連
+*.app
+*.exe
+*.dmg
+
+# キャッシュディレクトリ
+.cache/
+
+# テスト関連
+coverage/
+
+# 一時ファイル
+tmp/
+temp/
+
+# npm デバッグログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ローカル設定ファイル（必要に応じて）
+config.local.js
